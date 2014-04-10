@@ -1,0 +1,10 @@
+﻿<Window x:Class="GeometryLeap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="206" Width="364">
+    <Grid>
+        <Button Content="Start" HorizontalAlignment="Stretch" Name="startButton" VerticalAlignment="Stretch" Width="Auto" Click="startButton_Click" FontSize="56" FontWeight="Normal" Foreground="#FF4E4E4E" Margin="0,83,0,0" Grid.Row="1" />
+        <Label Content="0" Height="77" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="172" BorderBrush="#FF626262" Foreground="#FFD8FF00" Background="#FFA8AA9D" FontSize="56" FontWeight="Normal" FontStyle="Normal" BorderThickness="2" HorizontalContentAlignment="Right" />
+        <Label Background="#FFA8AA9D" BorderBrush="#FF626262" BorderThickness="2" Content="0" FontSize="56" FontStyle="Normal" FontWeight="Normal" Foreground="#FF65C5FF" Height="77" HorizontalAlignment="Right" Margin="170,0,0,0" Name="label2" VerticalAlignment="Top" Width="172" HorizontalContentAlignment="Right" Grid.Column="1" />
+    </Grid>
+</Window>
